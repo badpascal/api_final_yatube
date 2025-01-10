@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'djoser',
     'api',
     'posts',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
@@ -105,3 +106,5 @@ SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
+
+PAGE_SIZE = 10
