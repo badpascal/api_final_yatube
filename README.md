@@ -33,7 +33,14 @@ pip install -r requirements.txt
 **Выполнить миграции:**
 
 ```
+python manage.py makemigrations
 python manage.py migrate
+```
+
+**Создать суперюзера:**
+
+```
+python manage.py createsuperuser
 ```
 
 **Запустить проект:**
